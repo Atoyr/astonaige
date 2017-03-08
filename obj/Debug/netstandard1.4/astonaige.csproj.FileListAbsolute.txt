@@ -1,0 +1,6 @@
+C:\private\source\astonaige\bin\Debug\netstandard1.4\astonaige.deps.json
+C:\private\source\astonaige\bin\Debug\netstandard1.4\astonaige.dll
+C:\private\source\astonaige\bin\Debug\netstandard1.4\astonaige.pdb
+C:\private\source\astonaige\obj\Debug\netstandard1.4\astonaige.AssemblyInfo.cs
+C:\private\source\astonaige\obj\Debug\netstandard1.4\astonaige.dll
+C:\private\source\astonaige\obj\Debug\netstandard1.4\astonaige.pdb
