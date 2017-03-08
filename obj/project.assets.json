@@ -217,6 +217,9 @@
           }
         }
       },
+      "StyleCop.Analyzers/1.0.0": {
+        "type": "package"
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1284,6 +1287,20 @@
         "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "StyleCop.Analyzers/1.0.0": {
+      "sha512": "NT0qdVF8gfXn6YcajL/s9orWNbO9NAr9AM8MDHIxXHstMvxi7+viLxAlZIoWRAA25Cs4O91qFcMt06cL/61TjQ==",
+      "type": "package",
+      "path": "stylecop.analyzers/1.0.0",
+      "files": [
+        "analyzers/dotnet/cs/Newtonsoft.Json.dll",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.dll",
+        "stylecop.analyzers.1.0.0.nupkg.sha512",
+        "stylecop.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -4287,6 +4304,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v1.4": [
       "NETStandard.Library >= 1.6.1",
+      "StyleCop.Analyzers >= 1.0.0",
       "System.Runtime.Serialization.Json >= 4.3.0"
     ]
   },
@@ -4296,9 +4314,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\private\\source\\astonaige\\astonaige.csproj",
-      "projectName": "astonaige",
-      "projectPath": "C:\\private\\source\\astonaige\\astonaige.csproj",
+      "projectUniqueName": "C:\\private\\source\\astonaige\\Astonaige.csproj",
+      "projectName": "Astonaige",
+      "projectPath": "C:\\private\\source\\astonaige\\Astonaige.csproj",
       "outputPath": "C:\\private\\source\\astonaige\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
@@ -4321,6 +4339,10 @@
             "target": "Package",
             "version": "1.6.1",
             "autoReferenced": true
+          },
+          "StyleCop.Analyzers": {
+            "target": "Package",
+            "version": "1.0.0"
           }
         }
       }

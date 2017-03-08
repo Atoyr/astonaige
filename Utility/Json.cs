@@ -1,13 +1,17 @@
-using System;
-using System.Text;
-using System.IO;
-using System.Runtime.Serialization.Json;
+// <copyright file="Json.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
-namespace astonaige.Utility
+namespace Astonaige.Utility
 {
+    using System.IO;
+    using System.Runtime.Serialization.Json;
+    using System.Text;
+
     public static class Json
     {
-        public static string SerializeJson<T>(T obj) where T : class
+        public static string SerializeJson<T>(T obj)
+            where T : class
         {
             var serializer = new DataContractJsonSerializer(typeof(T));
             using (var stream = new MemoryStream())
@@ -17,7 +21,8 @@ namespace astonaige.Utility
             }
         }
 
-        public static T DeserializeJson<T>(string json) where T : class
+        public static T DeserializeJson<T>(string json)
+            where T : class
         {
             using (var stream = new MemoryStream(Encoding.UTF8.GetBytes(json)))
             {

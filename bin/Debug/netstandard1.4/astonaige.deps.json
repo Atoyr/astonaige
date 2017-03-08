@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v1.4/",
-    "signature": "2f9671f43185d9ba824358a498e5a7983cd31972"
+    "signature": "22d0db1d4c4cb8c718502e839ec246c2aa306abb"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,10 +10,11 @@
       "astonaige/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "1.6.1",
+          "StyleCop.Analyzers": "1.0.0",
           "System.Runtime.Serialization.Json": "4.3.0"
         },
         "runtime": {
-          "astonaige.dll": {}
+          "Astonaige.dll": {}
         }
       },
       "microsoft.netcore.platforms/1.1.0": {},
@@ -109,6 +110,7 @@
       "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0": {},
+      "stylecop.analyzers/1.0.0": {},
       "system.appcontext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -820,6 +822,13 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "stylecop.analyzers/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NT0qdVF8gfXn6YcajL/s9orWNbO9NAr9AM8MDHIxXHstMvxi7+viLxAlZIoWRAA25Cs4O91qFcMt06cL/61TjQ==",
+      "path": "stylecop.analyzers/1.0.0",
+      "hashPath": "stylecop.analyzers.1.0.0.nupkg.sha512"
     },
     "system.appcontext/4.3.0": {
       "type": "package",

@@ -4,9 +4,12 @@
     <TargetFramework>netstandard1.4</TargetFramework>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>astonaige.snk</AssemblyOriginatorKeyFile>
+    <AssemblyName>Astonaige</AssemblyName>
+    <RootNamespace>Astonaige</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.0.0" />
     <PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
   </ItemGroup>
 
